@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/*
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee|Bungee+Shade|Monoton|Ranchers|Ubuntu');
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ranchers', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Black Ops One', cursive;
+*/
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    line-height: 0px;
+    text-align: center;
+}
+h2 {
+    font-family: 'bungee', cursive;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.vertical-menu {
+    text-align: center;
+    height: auto;
+    overflow-y: auto;
+    font-size: 30px;
+    display: block;
+}
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+    display: block;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
